@@ -16,7 +16,7 @@ public class BooleanFun {
             System.out.println("You can rent a car!");
         }
 
-        if(myAge < 25){
+        else{
             System.out.println("You can't rent a car :( ");
         }
 
@@ -25,7 +25,7 @@ public class BooleanFun {
             System.out.println("You can get a senior discount. You're old lmao.");
         }
 
-        if(myAge < 65){
+        else{
             System.out.println("You can't yet have a senior discount. One day...");
         }
 
@@ -34,7 +34,7 @@ public class BooleanFun {
             System.out.println("You can order from the children's menu!");
         }
 
-        if(myAge > 12){
+        else{
             System.out.println("Cheap ass. No kids menu for you.");
         }
 
